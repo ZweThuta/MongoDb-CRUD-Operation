@@ -1,0 +1,150 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: whitesmoke;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+}
+
+.des {
+    text-align: center;
+    text-align: justify;
+
+}
+
+.newpost-btn {
+    text-decoration: none;
+    background-color: cornflowerblue;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.p-bg {
+    border: 1px solid rgb(0, 0, 0);
+    margin: 10px 20px;
+    width: auto;
+    height: auto;
+    padding: 20px 20px;
+}
+
+.p-title {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.p-des {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.form-bg {
+    display: flex;
+    background-color: rgb(231, 231, 231);
+    padding: 20px 20px 20px 0px;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+}
+
+.form-bg label {
+    font-size: 18px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.form-bg input {
+    width: 100%;
+    height: 20px;
+    padding: 0px 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.form-bg textarea {
+    width: 102%;
+    height: 200px;
+}
+
+.form-bg button {
+    background-color: rgb(87, 144, 250);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    font-weight: 200;
+}
+
+.post-btn {
+    text-decoration: none;
+    background-color: rgb(92, 110, 145);
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    margin: auto;
+    font-weight: 200;
+}
+
+.no-post {
+    text-align: center;
+    font-size: 20px;
+}
+
+.see {
+    text-decoration: none;
+    background-color: rgb(97, 120, 167);
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    font-weight: 200;
+}
+
+.details h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.img-bg {
+    display: flex;
+    margin: auto;
+    width: 50%;
+}
+
+.details img {
+    width: 50%;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.details p {
+    font-size: 17px;
+    margin: 10px 20px;
+    text-align: justify;
+}
+
+.detail-btn-bg {
+    display: flex;
+    margin: 30px;
+    gap: 100px;
+}

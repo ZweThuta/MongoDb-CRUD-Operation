@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <section class="details">
+        <h1>
+            <%= post.title %>
+        </h1>
+        <div class="img-bg">
+            <img src="<%= post.imgUrl %>" alt="<%= post.title %>">
+        </div>
+        <p>
+            <%= post.description %>
+        </p>
+    </section>
+    <div class="detail-btn-bg">
+    <a class="see" href="/admin/edit/<%= post._id %>">Edit</a>
+    <form action="/admin/delete/<%= post._id %>" method="post">
+        <button class="see" >Delete</button>
+    </form>
+     </div>
+    <hr>
+</body>
+</html>

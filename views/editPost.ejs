@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <h1 class="title">Edit Post<h1>
+        <section class="form-bg">
+            <form action="/admin/edit-post" method="post">
+                <input type="text" value="<%=post._id %>" name="postId" hidden>
+                <label for="title">
+                    Enter title
+                </label>
+                <input type="text" id="title" name="title" required value="<%= post.title %>">
+                <label for="description">
+                    Enter description
+                </label>
+                <textarea type="text" id="description" name="description" required>
+                    <%= post.description %>
+                </textarea>
+
+                <label for="title">
+                    Enter Image Url
+                </label>
+                <input type="text" id="photo" name="photo" required  value="<%= post.imgUrl %>">
+                <button>Update</button>
+               <a class="post-btn" href="/">Go Back Home</a>
+            </form> 
+        </section>
+
+
+</body>
+
+</html>
